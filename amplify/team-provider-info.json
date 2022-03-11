@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ecommercemobileapp-dev-221850-authRole",
+      "UnauthRoleArn": "arn:aws:iam::974562309259:role/amplify-ecommercemobileapp-dev-221850-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::974562309259:role/amplify-ecommercemobileapp-dev-221850-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-ecommercemobileapp-dev-221850-deployment",
+      "UnauthRoleName": "amplify-ecommercemobileapp-dev-221850-unauthRole",
+      "StackName": "amplify-ecommercemobileapp-dev-221850",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:974562309259:stack/amplify-ecommercemobileapp-dev-221850/5936f650-c611-11eb-92ed-0a673841cb10",
+      "AmplifyAppId": "d3jgaed36hmsos"
+    },
+    "categories": {
+      "auth": {
+        "ecommercemobileapp1b8b44d5": {}
+      },
+      "function": {
+        "CreatePaymentIntent": {
+          "deploymentBucketName": "amplify-ecommercemobileapp-dev-221850-deployment",
+          "s3Key": "amplify-builds/CreatePaymentIntent-66475a46325543547259-build.zip"
+        },
+        "StripeWebhook": {
+          "deploymentBucketName": "amplify-ecommercemobileapp-dev-221850-deployment",
+          "s3Key": "amplify-builds/StripeWebhook-5a357758787259465233-build.zip"
+        }
+      }
+    }
+  }
+}

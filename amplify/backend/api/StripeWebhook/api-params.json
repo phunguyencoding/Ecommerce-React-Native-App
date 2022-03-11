@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/stripe-webhook",
+      "lambdaFunction": "StripeWebhook",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/stripe-webhook"
+    }
+  ],
+  "resourceName": "StripeWebhook",
+  "apiName": "StripeWebhook",
+  "functionArns": [
+    {
+      "lambdaFunction": "StripeWebhook"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-ecommercemobileapp-dev-221850-authRole",
+    "unAuthRoleName": "amplify-ecommercemobileapp-dev-221850-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "StripeWebhook",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
